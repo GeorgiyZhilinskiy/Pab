@@ -1,0 +1,5 @@
+man(timur,otlichnik).
+man(misha,troeshnik).
+women(vlada,xoroshist).
+women(katya,troeshnik).
+welldone(A) :- man(A, otlichnik) ; man(A, xoroshist).
